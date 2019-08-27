@@ -1,0 +1,43 @@
+{
+  "build": {
+    "cpu": "cortex-m0",
+    "f_cpu": "48000000L",
+    "mcu": "wiznet7500p"
+  },
+  "connectivity": [
+    "ethernet"
+  ],
+  "debug": {
+    "jlink_device": "cortex-m0",
+    "tools": {
+      "cmsis-dap": {
+        "onboard": true,
+        "server": {
+          "arguments": [
+            "pyocd-gdbserver.py",
+            "-t",
+            "w7500"
+          ],
+          "executable": "$PYTHONEXE",
+          "package": "tool-pyocd"
+        }
+      }
+    }
+  },
+  "frameworks": [
+    "mbed"
+  ],
+  "name": "WIZwiki-W7500P",
+  "upload": {
+    "maximum_ram_size": 49152,
+    "maximum_size": 131072,
+    "protocol": "mbed",
+    "protocols": [
+      "cmsis-dap",
+      "jlink",
+      "mbed"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/WIZwiki-W7500P/",
+  "vendor": "WIZNet"
+}
