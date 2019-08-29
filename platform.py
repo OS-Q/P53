@@ -3,7 +3,7 @@ from platform import system
 from platformio.managers.platform import PlatformBase
 
 
-class Wiznet7500Platform(PlatformBase):
+class WIZ7500Platform(PlatformBase):
 
     def is_embedded(self):
         return True
