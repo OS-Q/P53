@@ -1,8 +1,8 @@
 {
-  "name": "wiznet7500",
-  "title": "WIZNet W7500",
+  "name": "WIZ7500",
+  "title": "WIZ7500",
   "description": "W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform",
-  "url": "http://www.wiznet.io/product-item/w7500/",
+  "url": "https://github.com/OS-Q/H9",
   "homepage": "https://github.com/OS-Q/H9",
   "license": "Apache-2.0",
   "engines": {
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/OS-Q/H9.git"
   },
-  "version": "3.4.0",
+  "version": "1.0.0",
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json"
