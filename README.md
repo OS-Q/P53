@@ -1,4 +1,4 @@
-﻿# [Platform H9](https://github.com/OS-Q/H9)
+﻿# [Platform H3](https://github.com/OS-Q/H3)
 
 [![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
 
@@ -6,19 +6,17 @@
 
 [EDGE-Q](https://github.com/OS-Q/EDGE-Q) -> Q[4] -> M[12] -> W[52] -> D[365] -> H[24] -> N[60] -> S[60]
 
-### [Platform描述](https://github.com/OS-Q/H9/wiki) 
+### [Platform描述](https://github.com/OS-Q/H3/wiki) 
 
-[Platform H9](https://github.com/OS-Q/H9)基于 PlatformIO
+[Platform H3](https://github.com/OS-Q/H3)基于 PlatformIO，用于以太网控制器
 
 ### [Framework资源](https://github.com/OS-Q) 
 
-* [资源](src/)
-* [文档](docs/)
+* [Framework N6](https://github.com/OS-Q/N6)
 
 ### [关联资源](https://github.com/OS-Q/)
 
- *  [ M5](https://github.com/OS-Q/M5) 
 
 
-### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H9)
+### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H3)
 ####  2019-8-27
