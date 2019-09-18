@@ -1,16 +1,16 @@
 {
-  "name": "WIZ7500",
-  "title": "WIZ7500",
-  "description": "W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform",
-  "url": "https://github.com/OS-Q/H9",
-  "homepage": "https://github.com/OS-Q/H9",
+  "name": "H6",
+  "title": "H6",
+  "description": "W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP",
+  "url": "https://github.com/OS-Q/H6",
+  "homepage": "https://github.com/OS-Q/H6",
   "license": "Apache-2.0",
   "engines": {
     "platformio": "<5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OS-Q/H9.git"
+    "url": "https://github.com/OS-Q/H6.git"
   },
   "version": "1.0.0",
   "packageRepositories": [
@@ -19,19 +19,19 @@
   ],
   "frameworks": {
     "mbed": {
-      "package": "framework-mbed",
+      "package": "framework-N2",
       "script": "builder/frameworks/mbed.py"
     }
   },
   "packages": {
+    "framework-N2": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/OS-Q/N2.git"
+    },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
       "version": ">=1.60301.0,<1.80000.0"
-    },
-    "framework-mbed": {
-      "type": "framework",
-      "optional": true,
-      "version": "~5.51304.190826"
     },
     "tool-pyocd": {
       "type": "debugger",
