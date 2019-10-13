@@ -3,13 +3,13 @@
   "title": "H6",
   "description": "W7500P开发平台",
   "url": "https://github.com/OS-Q/H6",
-  "homepage": "https://github.com/OS-Q/H6",
-  "license": "Apache-2.0",
+  "homepage": "http://www.OS-Q.com/H6",
+  "license": " ",
   "engines": {
     "platformio": "<5"
   },
   "repository": {
-    "type": "git",
+    "type": "",
     "url": "https://github.com/OS-Q/H6.git"
   },
   "version": "1.0.0",
