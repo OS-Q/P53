@@ -1,7 +1,7 @@
 {
   "name": "H6",
   "title": "H6",
-  "description": "W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP",
+  "description": "W7500P开发平台",
   "url": "https://github.com/OS-Q/H6",
   "homepage": "https://github.com/OS-Q/H6",
   "license": "Apache-2.0",
