@@ -1,7 +1,7 @@
 {
   "name": "H12",
   "title": "H12",
-  "description": "H12开发平台",
+  "description": "以太网控制平台",
   "url": "http://www.wiznet.io/product-item/w7500/",
   "homepage": "http://platformio.org/platforms/wiznet7500",
   "license": "Apache-2.0",
@@ -19,19 +19,24 @@
   ],
   "frameworks": {
     "mbed": {
-      "package": "framework-mbed",
+      "package": "framework-N2",
       "script": "builder/frameworks/mbed.py"
     }
   },
   "packages": {
-    "toolchain-gccarmnoneeabi": {
-      "type": "toolchain",
-      "version": ">=1.60301.0,<1.80000.0"
+    "framework-N2": {
+      "type": "framework",
+      "optional": true,
+      "version": "https://github.com/OS-Q/N2.git"
     },
     "framework-mbed": {
       "type": "framework",
       "optional": true,
       "version": "~5.51304.190826"
+    },
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">1.60000.0,<1.80000.0"
     },
     "tool-pyocd": {
       "type": "debugger",
