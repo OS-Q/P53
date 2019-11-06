@@ -1,37 +1,37 @@
 {
   "name": "H12",
   "title": "H12",
-  "description": "W7500P开发平台",
-  "url": "https://github.com/OS-Q/H12",
-  "homepage": "http://www.OS-Q.com/H12",
-  "license": " ",
+  "description": "H12开发平台",
+  "url": "http://www.wiznet.io/product-item/w7500/",
+  "homepage": "http://platformio.org/platforms/wiznet7500",
+  "license": "Apache-2.0",
   "engines": {
     "platformio": "<5"
   },
   "repository": {
-    "type": "",
-    "url": "https://github.com/OS-Q/H12.git"
+    "type": "git",
+    "url": "https://github.com/platformio/platform-wiznet7500.git"
   },
-  "version": "1.0.0",
+  "version": "3.4.0",
   "packageRepositories": [
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json"
   ],
   "frameworks": {
     "mbed": {
-      "package": "framework-N2",
+      "package": "framework-mbed",
       "script": "builder/frameworks/mbed.py"
     }
   },
   "packages": {
-    "framework-N2": {
-      "type": "framework",
-      "optional": true,
-      "version": "https://github.com/OS-Q/N2.git"
-    },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
       "version": ">=1.60301.0,<1.80000.0"
+    },
+    "framework-mbed": {
+      "type": "framework",
+      "optional": true,
+      "version": "~5.51304.190826"
     },
     "tool-pyocd": {
       "type": "debugger",

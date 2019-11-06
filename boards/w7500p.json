@@ -27,7 +27,7 @@
   "frameworks": [
     "mbed"
   ],
-  "name": "W7500P",
+  "name": "WIZwiki-W7500P",
   "upload": {
     "maximum_ram_size": 49152,
     "maximum_size": 131072,
