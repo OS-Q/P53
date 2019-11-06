@@ -1,16 +1,16 @@
 {
-  "name": "H6",
-  "title": "H6",
+  "name": "H12",
+  "title": "H12",
   "description": "W7500P开发平台",
-  "url": "https://github.com/OS-Q/H6",
-  "homepage": "http://www.OS-Q.com/H6",
+  "url": "https://github.com/OS-Q/H12",
+  "homepage": "http://www.OS-Q.com/H12",
   "license": " ",
   "engines": {
     "platformio": "<5"
   },
   "repository": {
     "type": "",
-    "url": "https://github.com/OS-Q/H6.git"
+    "url": "https://github.com/OS-Q/H12.git"
   },
   "version": "1.0.0",
   "packageRepositories": [
