@@ -1,5 +1,6 @@
-#include "mbed_events.h"
 #include <stdio.h>
+#include "mbed_events.h"
+
 
 int main() {
     // creates a queue with the default size

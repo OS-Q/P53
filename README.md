@@ -6,11 +6,7 @@
 
 ### [Platform描述](https://github.com/OS-Q/H12/wiki) 
 
-[Platform H12](https://github.com/OS-Q/H12)基于PlatformIO平台，以太网控制器终端开发
-
-TODO:
-
-该平台后期降级为板级
+[Platform H12](https://github.com/OS-Q/H12)基于PlatformIO平台，以太网控制器
 
 ### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H12)
 ####  2019-8-27
