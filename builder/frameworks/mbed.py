@@ -33,5 +33,5 @@ Import("env")
 
 # https://github.com/platformio/builder-framework-mbed.git
 SConscript(
-    join(env.PioPlatform().get_package_dir("framework-mbed"), "platformio",
+    join(env.PioPlatform().get_package_dir("framework-N2"), "platformio",
          "platformio-build.py"))
