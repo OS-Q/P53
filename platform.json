@@ -29,11 +29,6 @@
       "optional": true,
       "version": "https://github.com/OS-Q/N2.git"
     },
-    "framework-N2": {
-      "type": "framework",
-      "optional": true,
-      "version": "https://github.com/OS-Q/N2.git"
-    },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
       "version": ">1.60000.0,<1.80000.0"
