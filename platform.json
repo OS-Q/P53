@@ -1,9 +1,9 @@
 {
   "name": "H12",
   "title": "H12",
-  "description": "H12: iCE40 FPGA",
+  "description": "H12: ETH w7500",
   "url": "http://www.wiznet.io/product-item/w7500/",
-  "homepage": "https://github.com/OS-Q/H12",
+  "homepage": "https://www.OS-Q.com/H12",
   "license": "MIT",
   "engines": {
     "platformio": "<5"
@@ -17,7 +17,7 @@
     "email": "qitas@qitas.cn",
     "url": "https://www.OS-Q.com"
 }],
-  "keywords": "OS-Q, w7500P ",
+  "keywords": "OS-Q, ETH, w7500P",
   "version": "1.0.0",
   "packageRepositories": [
     "http://182.61.61.133/link/toolchain/manifest.json",
@@ -37,7 +37,7 @@
     "framework-N02": {
       "type": "framework",
       "optional": true,
-      "version": "~5.51401.0"
+      "version": "https://github.com/OS-Q/N02.git"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
