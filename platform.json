@@ -1,9 +1,9 @@
 {
   "name": "H12",
   "title": "H12",
-  "description": "以太网SoC开发平台",
+  "description": "H12: iCE40 FPGA",
   "url": "http://www.wiznet.io/product-item/w7500/",
-  "homepage": "http://OS-Q.com/H12",
+  "homepage": "https://github.com/OS-Q/H12",
   "license": "MIT",
   "engines": {
     "platformio": "<5"
@@ -12,30 +12,36 @@
     "type": "git",
     "url": "https://github.com/OS-Q/H12.git"
   },
+  "authors": [{
+    "name": "qitas",
+    "email": "qitas@qitas.cn",
+    "url": "https://www.OS-Q.com"
+}],
+  "keywords": "OS-Q, w7500P ",
   "version": "1.0.0",
   "packageRepositories": [
     "http://182.61.61.133/link/toolchain/manifest.json",
     "http://182.61.61.133/link/framework/manifest.json",
     "http://182.61.61.133/link/platformio.json",
     "http://182.61.61.133/link/platform.json",
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json"
+    "http://dl.platformio.org/packages/manifest.json",
+    "https://dl.bintray.com/platformio/dl-packages/manifest.json"
   ],
   "frameworks": {
     "mbed": {
-      "package": "framework-N2",
+      "package": "framework-N02",
       "script": "builder/frameworks/mbed.py"
     }
   },
   "packages": {
-    "framework-N2": {
+    "framework-N02": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/OS-Q/N2.git"
+      "version": "~5.51401.0"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
-      "version": ">1.60000.0,<1.80000.0"
+      "version": ">=1.60301.0,<1.80000.0"
     },
     "tool-pyocd": {
       "type": "debugger",
