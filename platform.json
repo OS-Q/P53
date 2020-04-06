@@ -42,7 +42,7 @@
       "type": "toolchain",
       "version": ">=1.60301.0"
     },
-    "tool-pyocd": {
+    "pyocd": {
       "type": "debugger",
       "optional": true,
       "version": "~0.801.0"
@@ -50,7 +50,7 @@
     "tool-jlink": {
       "type": "uploader",
       "optional": true,
-      "version": "^1.63208.0"
+      "version": "~1.65200.0"
     }
   }
 }
