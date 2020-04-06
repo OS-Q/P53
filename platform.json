@@ -36,7 +36,7 @@
     "framework-N02": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/OS-Q/N02.git"
+      "version": "~1.0.0"
     },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
