@@ -33,14 +33,14 @@
     }
   },
   "packages": {
-    "toolchain-gccarmnoneeabi": {
-      "type": "toolchain",
-      "version": ">=1.60301.0,<1.80000.0"
-    },
     "framework-N02": {
       "type": "framework",
       "optional": true,
       "version": "https://github.com/OS-Q/N02.git"
+    },
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": ">=1.60301.0"
     },
     "tool-pyocd": {
       "type": "debugger",

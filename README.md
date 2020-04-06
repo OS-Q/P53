@@ -7,6 +7,6 @@
 
 ### [Platform描述](https://github.com/OS-Q/H12/wiki) 
 
-[Platform H12](https://github.com/OS-Q/H12) 是基于PlatformIO开发平台的基础框架，用于[W7500P](https://github.com/sochub/W7500P) 芯片应用开发
+[Platform H12](https://github.com/OS-Q/H12) 是基于PlatformIO开发平台的基础框架，用于[W7500P](https://github.com/sochub/W7500P)芯片驱动开发
 
 ### [OS-Q = Open Solutions | Open Source |  Operating System ](http://www.OS-Q.com/H12)
