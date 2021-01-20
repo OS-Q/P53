@@ -27,7 +27,7 @@
   "frameworks": [
     "mbed"
   ],
-  "name": "W7500P",
+  "name": "WIZwiki-W7500P",
   "upload": {
     "maximum_ram_size": 49152,
     "maximum_size": 131072,
@@ -38,6 +38,6 @@
       "mbed"
     ]
   },
-  "url": "http://www.OS-Q.com/H12/W7500P/",
-  "vendor": "OS-Q"
+  "url": "https://developer.mbed.org/platforms/WIZwiki-W7500P/",
+  "vendor": "WIZNet"
 }

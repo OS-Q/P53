@@ -1,17 +1,16 @@
 language: python
 python:
-  - "2.7"
-  - "3.6"
+  - "3.7"
 
 env:
   - PLATFORMIO_PROJECT_DIR=examples/mbed-blink
-  - PLATFORMIO_PROJECT_DIR=examples/mbed-dsp
   - PLATFORMIO_PROJECT_DIR=examples/mbed-events
+  - PLATFORMIO_PROJECT_DIR=examples/mbed-dsp
   - PLATFORMIO_PROJECT_DIR=examples/mbed-rtos
   - PLATFORMIO_PROJECT_DIR=examples/mbed-serial
 
 install:
-  - pip install -U https://github.com/platformio/platformio/archive/develop.zip
+  - pip install -U https://github.com/OS-Q/S03/archive/master.zip
   - platformio platform install file://.
 
 script:
@@ -19,3 +18,4 @@ script:
 
 notifications:
   email: false
+

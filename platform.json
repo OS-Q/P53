@@ -1,56 +1,56 @@
 {
-  "name": "H12",
-  "title": "H12",
-  "description": "hardwired TCP/IP W7500P",
-  "url": "http://www.wiznet.io/product-item/w7500/",
-  "homepage": "https://www.OS-Q.com/H12",
+  "name": "P16",
+  "title": "Platform P16",
+  "description": "W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform especially requiring Internet of things",
+  "homepage": "http://www.wiznet.io/product-item/w7500/",
   "license": "Apache-2.0",
+  "keywords": [
+      "OS-Q",
+      "dev-platform",
+      "ARM",
+      "Cortex-M",
+      "WIZNet",
+      "W7500",
+      "Ethernet",
+      "IOP"
+  ],
   "engines": {
-    "platformio": "<5"
+    "platformio": "^5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OS-Q/H12.git"
+    "url": "https://github.com/platformio/platform-wiznet7500.git"
   },
-  "authors": [{
-    "name": "qitas",
-    "email": "qitas@qitas.cn",
-    "url": "http://www.qitas.cn"
-  }],
-  "keywords": "H12,IOP,WIZNet,W7500P,Cortex-M0",
-  "version": "3.5.1",
-  "packageRepositories": [
-    "http://182.61.61.133/link/toolchain/manifest.json",
-    "http://182.61.61.133/link/toolchain/openocd.json",
-    "http://182.61.61.133/link/framework/manifest.json",
-    "http://182.61.61.133/link/platformio.json",
-    "http://182.61.61.133/link/platform.json"
-  ],
+  "version": "3.7.0",
   "frameworks": {
     "mbed": {
-      "package": "framework-N02",
+      "package": "framework-mbed",
       "script": "builder/frameworks/mbed.py"
     }
   },
   "packages": {
-    "framework-N02": {
-      "type": "framework",
-      "optional": true,
-      "version": "~1.0.0"
-    },
     "toolchain-gccarmnoneeabi": {
       "type": "toolchain",
-      "version": ">=1.6.0"
+      "owner": "platformio",
+      "version": ">=1.60301.0,<1.80000.0"
     },
-    "pyocd": {
+    "framework-mbed": {
+      "type": "framework",
+      "optional": true,
+      "owner": "platformio",
+      "version": "~6.51506.0"
+    },
+    "tool-pyocd": {
       "type": "debugger",
       "optional": true,
+      "owner": "platformio",
       "version": "~0.801.0"
     },
     "tool-jlink": {
       "type": "uploader",
       "optional": true,
-      "version": "~1.65200.0"
+      "owner": "platformio",
+      "version": "^1.63208.0"
     }
   }
 }

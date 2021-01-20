@@ -4,7 +4,7 @@ from os import makedirs
 from os.path import isdir, join
 
 from SCons.Script import (COMMAND_LINE_TARGETS, AlwaysBuild, Builder, Default,
-                          DefaultEnvironment)
+                            DefaultEnvironment)
 
 env = DefaultEnvironment()
 platform = env.PioPlatform()
@@ -127,7 +127,8 @@ elif upload_protocol.startswith("jlink"):
             "-device", env.BoardConfig().get("debug", {}).get("jlink_device"),
             "-speed", "4000",
             "-if", ("jtag" if upload_protocol == "jlink-jtag" else "swd"),
-            "-autoconnect", "1"
+            "-autoconnect", "1",
+            "-NoGui", "1"
         ],
         UPLOADCMD='$UPLOADER $UPLOADERFLAGS -CommanderScript "${__jlink_cmd_script(__env__, SOURCE)}"'
     )
