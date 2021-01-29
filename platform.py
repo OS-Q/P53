@@ -3,7 +3,7 @@ from platform import system
 from platformio.managers.platform import PlatformBase
 
 
-class P16Platform(PlatformBase):
+class P17Platform(PlatformBase):
 
     def is_embedded(self):
         return True
@@ -33,7 +33,7 @@ class P16Platform(PlatformBase):
             del self.packages[jlink_pkgname]
 
         return PlatformBase.configure_default_packages(self, variables,
-                                                       targets)
+                                                        targets)
 
     def get_boards(self, id_=None):
         result = PlatformBase.get_boards(self, id_)
