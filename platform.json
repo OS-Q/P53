@@ -35,7 +35,7 @@
     "mbed": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/OS-Q/mbed.git"
+      "version": "https://github.com/OS-Q/mbed5.git"
     },
     "tool-pyocd": {
       "type": "debugger",
