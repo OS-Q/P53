@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/OS-Q/P59/workflows/P59/badge.svg)](https://github.com/OS-Q/P59/actions)
 [![Build Status](https://travis-ci.com/OS-Q/P59.svg?branch=master)](https://travis-ci.com/OS-Q/P59)
-[![Build status](https://ci.appveyor.com/api/projects/status/1aabe5q9ea8sjptj?svg=true)](https://ci.appveyor.com/project/Qitas/p59)
+[![Build status](https://ci.appveyor.com/api/projects/status/t84ixkcp2ugnow2f?svg=true)](https://ci.appveyor.com/project/Qitas/p59)
 
 ### [简介](https://github.com/OS-Q/P59/wiki)
 
