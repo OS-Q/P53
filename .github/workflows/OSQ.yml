@@ -1,4 +1,4 @@
-name: P17
+name: P59
 
 on: [push, pull_request]
 
@@ -27,6 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U https://github.com/OS-Q/S03/archive/master.zip
           platformio platform install file://.
-      - name: Build P17
+      - name: Build P59
         run: |
           platformio run -d ${{ matrix.example }}

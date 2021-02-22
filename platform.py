@@ -2,8 +2,7 @@ from platform import system
 
 from platformio.managers.platform import PlatformBase
 
-
-class P17Platform(PlatformBase):
+class P59Platform(PlatformBase):
 
     def is_embedded(self):
         return True
