@@ -22,7 +22,7 @@
   "version": "3.7.2",
   "frameworks": {
     "mbed": {
-      "package": "mbed",
+      "package": "mbed5",
       "script": "builder/frameworks/mbed.py"
     }
   },
@@ -32,7 +32,7 @@
       "owner": "platformio",
       "version": ">=1.60301.0,<1.80000.0"
     },
-    "mbed": {
+    "mbed5": {
       "type": "framework",
       "optional": true,
       "version": "https://github.com/OS-Q/mbed5.git"
