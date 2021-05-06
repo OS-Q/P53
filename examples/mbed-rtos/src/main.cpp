@@ -1,30 +1,28 @@
 #include "mbed.h"
 #include "rtos.h"
-
+ 
 Queue<uint32_t, 5> queue;
+ 
 DigitalOut myled(LED1);
-
-void queue_isr()
-{
+ 
+void queue_isr() {
     queue.put((uint32_t*)2);
     myled = !myled;
 }
-
-void queue_thread(void const *args)
-{
-    while (true)
-    {
+ 
+void queue_thread(void const *args) {
+    while (true) {
         queue.put((uint32_t*)1);
         Thread::wait(1000);
     }
 }
-
-int main (void)
-{
+ 
+int main (void) {
     Thread thread(queue_thread);
+    
     Ticker ticker;
     ticker.attach(queue_isr, 1.0);
-
+    
     while (true) {
         osEvent evt = queue.get();
         if (evt.status != osEventMessage) {

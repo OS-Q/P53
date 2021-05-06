@@ -1,28 +1,29 @@
 {
-  "name": "P59",
-  "title": "Platform P59",
-  "description": "W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform especially requiring Internet of things",
+  "name": "P53",
+  "title": "WIZNet W7500",
+  "description": "The IOP (Internet Offload Processor) W7500 is the one-chip solution which integrates an ARM Cortex-M0, 128KB Flash and hardwired TCP/IP core for various embedded application platform especially requiring Internet of things",
   "homepage": "http://www.wiznet.io/product-item/w7500/",
   "license": "Apache-2.0",
-  "engines": {
-    "platformio": "^5"
-  },
   "keywords": [
-      "OS-Q",
       "dev-platform",
       "ARM",
       "Cortex-M",
+      "WIZNet",
+      "W7500",
       "Ethernet",
       "IOP"
   ],
+  "engines": {
+    "platformio": "^5"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/OS-Q/P59.git"
+    "url": "https://github.com/platformio/platform-wiznet7500.git"
   },
-  "version": "3.7.2",
+  "version": "3.7.0",
   "frameworks": {
     "mbed": {
-      "package": "mbed5",
+      "package": "framework-mbed",
       "script": "builder/frameworks/mbed.py"
     }
   },
@@ -32,16 +33,17 @@
       "owner": "platformio",
       "version": ">=1.60301.0,<1.80000.0"
     },
-    "mbed5": {
+    "framework-mbed": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/OS-Q/mbed5.git"
+      "owner": "platformio",
+      "version": "~6.51506.0"
     },
     "tool-pyocd": {
       "type": "debugger",
       "optional": true,
       "owner": "platformio",
-      "version": "~0.801.0"
+      "version": "~1.2900.0"
     },
     "tool-jlink": {
       "type": "uploader",
