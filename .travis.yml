@@ -1,0 +1,23 @@
+language: python
+python:
+  - "3.9"
+os:
+  - linux
+git:
+  depth: 1
+
+env:
+  - PLATFORMIO_PROJECT_DIR=examples/mbed-blink
+  - PLATFORMIO_PROJECT_DIR=examples/mbed-rtos
+
+
+install:
+  - pip install -U https://github.com/OS-Q/M03/releases/latest/download/qio.zip
+  - platformio platform install file://.
+
+script:
+  - platformio run -d $PLATFORMIO_PROJECT_DIR
+
+notifications:
+  email: false
+
