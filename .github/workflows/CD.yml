@@ -203,7 +203,7 @@ jobs:
         id: build
         if: steps.getgh.outputs.status == 'success' && !cancelled()
         run: |
-          qio run -d examples/arduino-blink
+          qio run -d examples/mbed-blink
 
   release_tail:
     needs:
